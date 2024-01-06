@@ -12,6 +12,4 @@ void main() {
   print(pokemon);
   print('Name:${pokemon[1]}');
   print('Name:${pokemon['name']}');
-
-  print('Front:${pokemon['sprites'].toString()[1].toString()}');
 }
